@@ -117,7 +117,7 @@ def nn_model(X,Y,num_iter=100,learning_rate=0.5,print_cost=False):
         parameters = update_params(parameters, grades, learning_rate)
 
         if print_cost:
-            print ("Cost after iteration %i: %f" %(i, cost))
+            print ("Cost after iteration", i, " is: " , cost)
     return parameters
 
 
